@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Machu Picchu Adventure Slider</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide" id="slide1">
+                <h2>MACHU PICCHU - PERU</h2>
+                <p>Adventure is never far away.</p>
+                <img src="https://cdn.britannica.com/30/94530-050-99493FEA/Machu-Picchu.jpg">
+            </div>
+            <div class="slide" id="slide2">
+                <h2>SCENIC VIEW 2</h2>
+                <p>Discover the beauty.</p>
+                <img src="https://www.incatrailmachu.com/img/machu-picchu-02-011.jpg" alt="Scenic View 2">
+            </div>
+            <div class="slide" id="slide3">
+                <h2>SCENIC VIEW 3</h2>
+                <p>Explore the world.</p>
+                <img src="https://images.unsplash.com/photo-1519761112046-3abcd5a21728?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWFjaHUlMjBwaWNjaHV8ZW58MHx8MHx8fDA%3D" alt="Scenic View 3">
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+    
+  <script src="script.js"></script>
+</body>
+</html>
